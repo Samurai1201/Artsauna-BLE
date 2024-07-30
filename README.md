@@ -7,7 +7,31 @@ All commands the app issues are write requests to handle 0x0009, specifically to
 
 All to handle 0x0009 -> char uuid: 0000ae01-0000-1000-8000-00805f9b34fb -> Service uuid: 0000ae00-0000-1000-8000-00805f9b34Tb
 
-
+```
+On/Off -> ffaa055a470e00b4
+RGB 00 -> ffaa055a470a00b0
+RGB 01 -> ffaa055a470a01b1
+RGB 02 -> ffaa055a470a02b2
+RGB 03 -> ffaa055a470a03b3
+RGB 04 -> ffaa055a470a04b4
+RGB 05 -> ffaa055a470a05b5
+RGB 06 -> ffaa055a470a06b6
+RGB 07 -> ffaa055a470a07b7
+RGB 08 -> ffaa055a470a08b8
+RGB 09 -> ffaa055a470a09b9
+Licht Kabine -> ffaa055a470c00b2
+Licht außen -> ffaa055a470b00b1
+FM -> ffaa055a470100a7
+AUX -> ffaa055a470400aa
+BT -> ffaa055a470200a8
+USB -> ffaa055a470300a9
+Heizen AN -> ffaa055a470002a8
+Heizen AUS -> ffaa055a470001a7
+Temp + -> ffaa055a470600ac
+Temp - -> ffaa055a470700ad
+Zeit + -> ffaa055a470800ae
+Zeit - -> ffaa055a470900af
+```
 Results of scan using gatttool on linux host:
 ```
 [9E: 02: C8: A7:3A: 76] [LE]> primary
